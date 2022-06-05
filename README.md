@@ -1,1 +1,1 @@
-# rsschool-cv
+https://yltrablondi.github.io/rsschool-cv/cv
