@@ -104,9 +104,6 @@ body {
         padding-left: 30px;
       }
      .rss {
-        background-image: url("/assets/img/rs_school_js.svg");
-        width: 121px;
-        height: 45px;
         position:relative;
         top: 0px;
         left: 500px;    
