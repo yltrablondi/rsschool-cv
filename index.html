@@ -10,8 +10,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
 </head>
 <body>
     <header class = "header">
@@ -34,6 +32,8 @@
                 <h1 class="title">Maria Simonenko</h1>
                 <img src="assets/img/photo.jpeg" alt="my photo" width="360" height="230">
             </section>
+
+        </div>
         <div class ="container main-container">
             <section class ="section" id="contacts">
                 <h2 class="section-title">Сontacts</h2>
@@ -68,7 +68,7 @@
 function compose() {
 let funcs = Array.from(arguments);
 return function (x) {
-if (funcs.length 	< 1) return x;
+if (funcs.length 1) return x;
 let f = funcs[funcs.length - 1](x);
 for (let i = funcs.length - 2; i ≥ 0; i--) {
 = funcs[i](f);
