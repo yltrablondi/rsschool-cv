@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <header class = "header">
+        <div class ="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class ="container">
+            <section class ="section" id="profile">
+                <h1 class="title">Maria Simonenko</h1>
+                <img src="assets/img/photo.jpeg" alt="my photo" width="360" height="230">
+            </section>
+        <div class ="container main-container">
+            <section class ="section" id="contacts">
+                <h2 class="section-title">Сontacts</h2>
+                <ul>
+                    <li>Phone: +37529169402</li>
+                    <li>E-mail: simonenkomasha@gmail.com</li>
+                    <li>Telegram: @yltrablondi</li>
+                </ul>
+            </section>
+            <section class ="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <span> I started my career as a data analyst in machine learning,
+                     currently work as business analyst. Always was interested in prototypes,
+                     design, so now I'm curious about how the things are  technically displayed.</span>
+            </section>
+            <section class ="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>JavaScript Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>Adobe Photoshop, Illustrator, InDesign</li>
+                    </ul>
+            </section>
+            <section class ="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <span>Belarusian State University. Speciality: economist-analyst</span>
+            </section>
+            <section class ="section" id="code">
+                <h2 class="section-title">Code</h2>
+               <pre>
+                <code>
+function compose() {
+let funcs = Array.from(arguments);
+return function (x) {
+if (funcs.length 	< 1) return x;
+let f = funcs[funcs.length - 1](x);
+for (let i = funcs.length - 2; i ≥ 0; i--) {
+= funcs[i](f);
+}
+return f;
+};
+                  </code>
+                  </pre>
+            </section>
+            <section class ="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>English - B2</li>
+                    <li>Russian - Native</li>
+                    <li>Polish - Basic</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                 <li><a href="https://readymag.com/u2478562610/2738031/" class="link1">Photo project</a> </li>
+                <li><a href="http://msimonenko.tilda.ws/" class="link1">Portfolio</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container footer-container">
+            <a href="https://github.com/yltrablondi" class="link">
+                Maria
+            </a>
+        </div>
+        <div class ="container footer-container">
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
